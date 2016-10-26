@@ -5,29 +5,49 @@
     <title>HTML Academy: Глейси</title>
   </head>
   <body>
-  	<header class="main-header">
-      <div class="container">
+  	<header class="container">
       	<img src="http://placehold.it/100x50" alt="Лого Gllacyshop">
         <nav class="main-navigation">
           <ul>
-            <li><a href="#">Каталог</a></li>
+            <li>
+              <a href="#">Каталог</a>
+              <ul>
+              	<li class="nav-catalog-news"><a href="#">Новинки</a></li>
+              	<li><a href="#">Сливочное</a></li>
+              	<li><a href="#">Щербеты</a></li>
+              	<li><a href="#">Фруктовый лед</a></li>
+              	<li><a href="#">Мелорик</a></li>
+              </ul>
+            </li>
             <li><a href="#">Доставка и оплата</a></li>
             <li><a href="#">О Компании</a></li>
           </ul>
         </nav>
         <div class="user-block">
-          <a class="finder" href="#"><img src="http://placehold.it/10x10"></a>
+          <form class="finder" action="#" method="post">
+          	<input type="text" name="search">
+          	<input type="submit" name="search-button">
+          </form>
           <a class="login" href="#">Вход</a>
           <a class="cart" href="#">Пусто</a>
         </div>
-      </div>
+        <div class="opentime">
+          <p>С 10 до 20, ежедневно<br><b>8 812 450-25-25</b></p>
+        </div>
     </header>
+
     <main class="container">
-      <section class="slider">
-      	<p>С 10 до 20, ежедневно</p>
-      	<p><b>8 812 450-25-25</b></p>
+      <article class="slider">
       	<div class="slider-items">
-      	  <img src="http://placehold.it/1200x600">
+      	  <div class="slider-item1">
+      	    <img  src="http://placehold.it/1200x600">
+      	  </div>
+      	  <div class="slider-item2">
+      	    <img  src="http://placehold.it/1200x600">
+      	  </div>
+      	  <div class="slider-item3">
+      	    <img  src="http://placehold.it/1200x600">
+      	  </div>
       	  <form>
       	  	<input class="radio-slider" type="radio" name="radio" checked>
       	  	<input class="radio-slider" type="radio" name="radio">
@@ -35,44 +55,44 @@
       	  </form>
       	  <a class="slider-button" href="#">Давайте оба!</a>
       	</div>
-      </section>
-      <section class="raspberry">
+      </article>
+      <article class="raspberry">
       	<h2>Малинка даром!</h2>
       	<p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
       	<a href="#">Хочу варенье!</a>
-      </section>
-      <section class="choccolate">
+      </article>
+      <article class="choccolate">
       	<h2>Шоколадки даром!</h2>
       	<p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
       	<a href="#">Хочу варенье!</a>
-      </section>
+      </article>
       <section class="hits">
-      	<div class="hits1">
+      	<div class="hit">
       		<p class="hit">ХИТ</p>
       		<img src="http://placehold.it/120x120">
       		<h3>310 Р/кг</h3>
       		<p class="hits-title">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
       	</div>
-      	<div class="hits2">
+      	<div class="hit">
       		<p class="hit">ХИТ</p>
       		<img src="http://placehold.it/120x120">
       		<h3>380 Р/кг</h3>
       		<p class="hits-title">Сливочно-кофейное с кусочками шоколада</p>
       	</div>
-      	<div class="hits3">
+      	<div class="hit">
       		<p class="hit">ХИТ</p>
       		<img src="http://placehold.it/120x120">
       		<h3>355 Р/кг</h3>
       		<p class="hits-title">Сливочно-клубничное с присыпкой из белого шоколада</p>
       	</div>
-      	<div class="hits4">
+      	<div class="hit">
       		<p class="hit">ХИТ</p>
       		<img src="http://placehold.it/120x120">
       		<h3>415 Р/кг</h3>
       		<p class="hits-title">Сливочное крем-брюле с карамельной подливкой</p>
       	</div>
       </section>
-      <section class="preferences">
+      <article class="preferences">
       	<h3>Магазин Глейси - это онлайн и офлайн магазин по продаже мороженного собственного производства на развес</h3>
       	<ul>
       		<li><img src="http://placehold.it/20x20">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</li>
@@ -80,49 +100,48 @@
       		<li><img src="http://placehold.it/20x20">Закупка ингредиентов производится только у проверенных фермерских хозяуств и компаний, с которыми нас связывает долговременное сотрудничество.</li>
       		<li><img src="http://placehold.it/20x20">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранять превосходный вкус.</li>
       	</ul>
-      </section>
-      <div = class="news">
+      </article>
+      <div class="news">
       	<p>Новое в нашем блоге</p>
-      	<a href="#"><b>10 способов сервировки фруктовых щербетов к столу</b></a>
+      	<a href="#">10 способов сервировки фруктовых щербетов к столу</a>
       </div>
       <div class="subscribe">
       	<p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
-      	<form class="sender">
+      	<form class="sender" action="#" method="post">
       		<input class="sender-text" type="text" name="email">
       		<input class="sender-button" type="submit" name="submit" value="Отправить">
       	</form>
       </div>
-      <section class="map">
+      <article class="map">
       	<img src="http://placehold.it/1200x500" alt="Карта">
       	<div class="map-adres">
-      		<p>Адрес главного офиса и офлайн магазина</p>
-      		<p><b>ул. Большая Конюшенная 19/8, Санкт-Петербург</b></p>
-      		<p>Для заказов по телефону:</p>
-      		<p><b>8 812 450-25-25</b></p>
-      		<p>(с 10 до 20 ежедневно)</p>
+      		<p>Адрес главного офиса и офлайн магазина<br>
+      		<b>ул. Большая Конюшенная 19/8, Санкт-Петербург</b><br>
+      		Для заказов по телефону:<br>
+      		<b>8 812 450-25-25</b><br>
+      		(с 10 до 20 ежедневно)</p>
       		<a class="map-button" href="#">Форма обраной связи</a>
       	</div>
-      </section>
+      </article>
     </main>
-    <footer class="main-footer">
-      <div class="container">
-        <section class="footer-social">
+
+    <footer class="container">
+        <article class="footer-social">
           <a class="social-btn-twit" href="#"></a>
           <a class="social-btn-inst" href="#"></a>
           <a class="social-btn-fb" href="#"></a>
           <a class="social-btn-vk" href="#"></a>
-        </section>
-        <section class="footer-links">
+        </article>
+        <article class="footer-links">
           <a class="footer-links-producers" href="#">Для поставщиков</a>
           <a class="footer-links-factory" href="#">О производстве</a>
           <a class="footer-links-docs" href="#">Наши документы</a>
           <a class="footer-links-standart" href="#">Экологические стандарты</a>        	
-        </section>
-        <section class="footer-copyright">
+        </article>
+        <article class="footer-copyright">
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
           <p>Сделано в HTML Academy 2016</p>
-        </section>
-      </div>
+        </article>
     </footer>
   </body>
 </html>
