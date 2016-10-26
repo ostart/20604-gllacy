@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="container">
@@ -46,15 +47,15 @@
       	<h1>Сливочное мороженое</h1>
       	<div class="filters">
       		<form action="#" method="post">
-      			<span class="sorting">Сортировка</span>
+      			<div class="sorting">Сортировка</div>
       			<select name="sort" id="sort">
       				<option value="popular">по популярности</option>
       				<option value="news">по новизне</option>
       			</select>
-      			<span class="pricing">Цена: 100 руб. - 500 руб.</span>
+      			<div class="pricing">Цена: 100 руб. - 500 руб.</div>
       			<input class="price" name="price-lower" id="price-lower" type="range" min="0" max="1000" multiple="lower" value="100">
       			<input class="price" name="price-upper" id="price-upper" type="range" min="0" max="1000" multiple="upper" value="500">
-      			<span class="fatness">Жирность:</span>
+      			<div class="fatness">Жирность:</div>
       			<input type="radio" name="fat" id="fat0" value="0%">
       			<label class="filters=label" for="fat0">0%</label>
       			<input type="radio" name="fat" id="fat10" value="10%" checked>
@@ -64,7 +65,7 @@
       			<input type="radio" name="fat" id="fat-more30" value="more30%">
       			<label class="filters=label" for="fat-more30">выше 30%</label>
 
-      			<span class="filler" for="fill">Наполнители:</span>
+      			<div class="filler" for="fill">Наполнители:</div>
       			<input type="checkbox" name="fill-chocco" id="fill-chocco" value="fill-chocco" checked>
       			<label class="filter-label" for="fill-chocco">шоколадные</label>
       			<input type="checkbox" name="fill-sugar" id="fill-sugar" value="fill-sugar" checked>
