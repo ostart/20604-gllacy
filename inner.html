@@ -6,14 +6,14 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="container">
+    <header class="container outline">
       	<a href="index.html"><img src="img/logo.svg" alt="Лого Gllacyshop" width="154" height="64"></a>
         <nav class="main-navigation">
-          <ul>
+          <ul class="linear-style outline">
             <li>
               <a href="#">Каталог</a>
-              <ul>
-              	<li class="nav-catalog-news"><a href="#">Новинки</a></li>
+              <ul class="horizont-style outline">
+              	<li><a href="#">Новинки</a></li>
               	<li><a href="#">Сливочное</a></li>
               	<li><a href="#">Щербеты</a></li>
               	<li><a href="#">Фруктовый лед</a></li>
@@ -24,7 +24,7 @@
             <li><a class="main-navigation-about" href="#">О Компании</a></li>
           </ul>
         </nav>
-        <div class="user-block">
+        <div class="user-block outline">
           <form class="finder">
           	<input type="text" name="search">
           	<input type="submit" name="search-button">
@@ -37,45 +37,57 @@
         </div>
     </header>
     
-    <main class="container">
+    <main class="container outline">
       <article class="breadcrumbs-filters">
-      	  <ul class="breadcrumbs">
-      		<li><a href="index.html">Главная</a></li>
-      		<li><a href="#">Каталог</a></li>
-      		<li>Сливочное</li>
+      	  <ul class="breadcrumbs linear-style">
+        		<li><a href="index.html">Главная</a></li>
+        		<li><a href="#">Каталог</a></li>
+        		<li>Сливочное</li>
       	  </ul>
       	<h1>Сливочное мороженое</h1>
-      	<div class="filters">
+      	<div class="filters outline">
       		<form action="#" method="post">
-      			<div class="sorting">Сортировка</div>
-      			<select name="sort" id="sort">
-      				<option value="popular">по популярности</option>
-      				<option value="news">по новизне</option>
-      			</select>
-      			<div class="pricing">Цена: 100 руб. - 500 руб.</div>
-      			<input class="price" name="price-lower" id="price-lower" type="range" min="0" max="1000" multiple="lower" value="100">
-      			<input class="price" name="price-upper" id="price-upper" type="range" min="0" max="1000" multiple="upper" value="500">
-      			<div class="fatness">Жирность:</div>
-      			<input type="radio" name="fat" id="fat0" value="0%">
-      			<label class="filters=label" for="fat0">0%</label>
-      			<input type="radio" name="fat" id="fat10" value="10%" checked>
-      			<label class="filters=label" for="fat10">10%</label>
-      			<input type="radio" name="fat" id="fat-less30" value="less30%">
-      			<label class="filters=label" for="fat-less30">до 30%</label>
-      			<input type="radio" name="fat" id="fat-more30" value="more30%">
-      			<label class="filters=label" for="fat-more30">выше 30%</label>
+      			<div class="sorting outline">
+              <span>Сортировка:</span>
+              <select name="sort" id="sort">
+                <option value="popular">по популярности</option>
+                <option value="news">по новизне</option>
+              </select>
+            </div>
+      			
+      			<div class="pricing outline">
+              <span>Цена: 100 руб. - 500 руб.</span>
+              <input class="price" name="price-lower" id="price-lower" type="range" min="0" max="1000" multiple="lower" value="100">
+              <input class="price" name="price-upper" id="price-upper" type="range" min="0" max="1000" multiple="upper" value="500">
+            </div>
+      			
+      			<div class="fatness outline">
+                <div>Жирность:</div>
+                <input type="radio" name="fat" id="fat0" value="0%">
+                <label class="filters=label" for="fat0">0%</label>
+                <input type="radio" name="fat" id="fat10" value="10%" checked>
+                <label class="filters=label" for="fat10">10%</label>
+                <input type="radio" name="fat" id="fat-less30" value="less30%">
+                <label class="filters=label" for="fat-less30">до 30%</label>
+                <input type="radio" name="fat" id="fat-more30" value="more30%">
+                <label class="filters=label" for="fat-more30">выше 30%</label>
+            </div>
+      			
 
-      			<div class="filler">Наполнители:</div>
-      			<input type="checkbox" name="fill-chocco" id="fill-chocco" value="fill-chocco" checked>
-      			<label class="filter-label" for="fill-chocco">шоколадные</label>
-      			<input type="checkbox" name="fill-sugar" id="fill-sugar" value="fill-sugar" checked>
-      			<label class="filter-label" for="fill-sugar">сахарные присыпки</label>
-      			<input type="checkbox" name="fill-fruit" id="fill-fruit" value="fill-fruit">
-      			<label class="filter-label" for="fill-fruit">фрукты</label>
-      			<input type="checkbox" name="fill-sirop" id="fill-sirop" value="fill-sirop">
-      			<label class="filter-label" for="fill-sirop">сиропы</label>
-      			<input type="checkbox" name="fill-jam" id="fill-jam" value="fill-jam">
-      			<label class="filter-label" for="fill-jam">джемы</label>
+      			<div class="filler outline">
+              <div>Наполнители:</div>
+              <input type="checkbox" name="fill-chocco" id="fill-chocco" value="fill-chocco" checked>
+              <label class="filter-label" for="fill-chocco">шоколадные</label>
+              <input type="checkbox" name="fill-sugar" id="fill-sugar" value="fill-sugar" checked>
+              <label class="filter-label" for="fill-sugar">сахарные присыпки</label>
+              <input type="checkbox" name="fill-fruit" id="fill-fruit" value="fill-fruit">
+              <label class="filter-label" for="fill-fruit">фрукты</label>
+              <input type="checkbox" name="fill-sirop" id="fill-sirop" value="fill-sirop">
+              <label class="filter-label" for="fill-sirop">сиропы</label>
+              <input type="checkbox" name="fill-jam" id="fill-jam" value="fill-jam">
+              <label class="filter-label" for="fill-jam">джемы</label>
+            </div>
+      			
       			<input class="submit" type="submit" name="submit" value="Применить">
       		</form>
       	</div>
@@ -122,7 +134,7 @@
       		<h3>320 Р/кг</h3>
       		<p class="hits-title">Сливочное с шоколадной стружкой</p>
       	</div>
-		<div class="hit">
+		    <div class="hit">
       		<img src="img/creamy-vanilla.png" width="267" height="267">
       		<h3>440 Р/кг</h3>
       		<p class="hits-title">Сливочно-ванильное с кусочками шоколада</p>
@@ -143,29 +155,30 @@
       		<p class="hits-title">Сливочное с мятным сиропом</p>
       	</div>
       </section>
-      <ul class="pagination-items">
-    	<li>1</li>
-    	<li><a href="#">2</a></li>
-    	<li><a href="#">3</a></li>
-    	<li><a href="#">4</a></li>
-    	<li><a href="#">5</a></li>
+      <ul class="pagination-items linear-style outline">
+      	<li>1</li>
+      	<li><a href="#">2</a></li>
+      	<li><a href="#">3</a></li>
+      	<li><a href="#">4</a></li>
+      	<li><a href="#">5</a></li>
       </ul>
     </main>
 
-  	<footer class="container">
-        <article class="footer-social">
-          <a class="social-btn-twit" href="#"></a>
-          <a class="social-btn-inst" href="#"></a>
-          <a class="social-btn-fb" href="#"></a>
-          <a class="social-btn-vk" href="#"></a>
-        </article>
-        <article class="footer-links">
-          <a class="footer-links-producers" href="#">Для поставщиков</a>
-          <a class="footer-links-factory" href="#">О производстве</a>
-          <a class="footer-links-docs" href="#">Наши документы</a>
-          <a class="footer-links-standart" href="#">Экологические стандарты</a>        	
-        </article>
-        <article class="footer-copyright">
+  	<footer class="container outline">
+        <ul class="footer-social linear-style outline">
+          <li class="social-btn social-btn-twit outline"><a href="#"></a></li>
+          <li class="social-btn social-btn-inst outline"><a href="#"></a></li>
+          <li class="social-btn social-btn-fb outline"><a href="#"></a></li>
+          <li class="social-btn social-btn-vk outline"><a href="#"></a></li>
+        </ul>
+        
+        <ul class="footer-links linear-style outline">
+          <li class="footer-links-producers"><a href="#">Для поставщиков</a></li>
+          <li class="footer-links-factory"><a href="#">О производстве</a></li>
+          <li class="footer-links-docs"><a href="#">Наши документы</a></li>
+          <li class="footer-links-standart"><a href="#">Экологические стандарты</a></li>
+        </ul>
+        <article class="footer-copyright outline">
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
           <p>Сделано в HTML Academy 2016</p>
         </article>
