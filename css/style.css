@@ -3,4 +3,254 @@ body {
 	font-color: black;
 	font-family: "Roboto", "Arial", serif;
 	font-style: normal;
+	background: lightgreen;
+}
+
+.outline {
+  outline: 3px solid black;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+ul.linear-style {
+	font-size: 0;
+}
+
+ul.linear-style li {
+	display: inline-block;
+	font-size: 20px;
+}
+
+ul.horizont-style li {
+	display: block;
+}
+
+header {
+	font-size: 0;
+}
+
+.main-navigation {
+	display: inline-block;
+	font-size: 22px;
+	vertical-align: top;
+}
+
+.user-block {
+	display: inline-block;
+	margin-left: 265px;
+	font-size: 22px;
+	vertical-align: top;
+}
+
+.opentime {
+	text-align: right;
+	font-size: 22px;
+}
+
+.slider-item {
+  width: 755px;
+  height: 624px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rasp-chocco, .news-subs {
+	width: 1200px;
+	margin: 25px auto;
+	font-size: 0;
+}
+
+.raspberry {
+	display: inline-block;
+	width: 550px;
+	margin: 20px;
+	font-size: 22px;
+/*	background-image: url("../img/raspberry-fon_1200.png");
+	background-size: contain;*/
+}
+
+.choccolate {
+	display: inline-block;
+	width: 550px;
+	margin: 20px;
+	font-size: 22px;
+/*	background-image: url("../img/chocolate-fon_1200.png");
+	background-size: contain;*/
+}
+
+.i-want {
+	float: right;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+.hits, .news-subs, .map, .icecream, .pagination, .filters { 
+	font-size: 0; 
+	margin: 25px auto;
+}
+
+.hit {
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+	min-height: 450px;
+	font-size: 22px;
+}
+
+.center {display:block; margin: 0 auto;}
+
+.preferences {
+	width: 1180px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.preferences ul { font-size: 22px; }
+
+.preferences ul li {
+	display: inline-block;
+	width: 550px;
+	vertical-align: top;
+	min-height: 160px;
+	margin: 5px;	
+}
+
+.news {
+	display: inline-block;
+	width: 550px;
+	margin: 20px;
+	min-height: 200px;
+	vertical-align: top;
+	font-size: 22px;
+/*	background-image: url("../img/strawberry-fon_1200.png");
+	background-size: contain;*/
+}
+
+.subscribe {
+	display: inline-block;
+	width: 550px;
+	margin: 20px;
+	min-height: 200px;
+	vertical-align: top;
+	font-size: 22px;
+/*	background-image: url("../img/post-fon_1200.png");
+	background-size: contain;*/
+}
+
+.map-adres {
+	display: inline-block;
+	font-size: 22px;
+	vertical-align: top;
+}
+
+.map-button {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+}
+
+footer {
+	font-size: 0;
+}
+
+.footer-social {
+  display: inline-block;
+  width: 260px;
+  min-height: 63px;
+  vertical-align: middle;
+  padding-top: 10px; 
+  font-size: 22px;
+}
+
+.footer-links {
+  display: inline-block;
+  width: 420px;
+  margin: 0 123px;
+  min-height: 90px;
+  vertical-align: middle;
+  padding-top: 35px; 
+  font-size: 22px;
+}
+
+.footer-copyright {
+  display: inline-block;
+  width: 180px;
+  min-height: 90px;
+  vertical-align: middle;
+  padding-top: 10px;
+  font-size: 22px;
+}
+
+.social-btn-twit {
+	width: 33px;
+	min-height: 33px;
+	/*background-image: url("../img/twitter.png") 100% 100% no-repeat;
+	background-size: auto;*/
+}
+
+.social-btn { margin : 10px; }
+
+.social-btn-inst {
+	width: 33px;
+	min-height: 33px;
+	/*background-image: url("../img/insta.png") 100% 100% no-repeat;
+	background-size: auto;*/
+}
+
+.social-btn-fb {
+	width: 33px;
+	min-height: 33px;
+	/*background-image: url("../img/fb.png") 100% 100% no-repeat;
+	background-size: auto;*/
+}
+
+.social-btn-vk {
+	width: 33px;
+	min-height: 33px;
+	/*background-image: url("../img/vk.png") 100% 100% no-repeat;
+	background-size: auto;*/
+}
+
+.pagination-items {
+	display: inline-block;
+	width: 100px;
+	margin: 10px;
+	margin-left: 1000px;
+	vertical-align: middle;
+}
+
+.sorting {
+	display: inline-block;
+	width: 200px;
+	margin: 10px;
+	vertical-align: top;
+	font-size: 22px;
+}
+
+.pricing {
+	display: inline-block;
+	width: 280px;
+	margin: 10px;
+	vertical-align: top;
+	font-size: 22px;
+}
+
+.fatness {
+	display: inline-block;
+	width: 480px;
+	margin: 10px;
+	vertical-align: top;
+	font-size: 22px;
+}
+
+.filler {
+	display: inline-block;
+	width: 780px;
+	margin: 10px;
+	vertical-align: top;
+	font-size: 22px;
 }
