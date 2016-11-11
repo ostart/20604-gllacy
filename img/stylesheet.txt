@@ -1,0 +1,113 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-cart-empty {
+    width: 21px;
+    height: 20px;
+    background-position: -10px -10px;
+}
+
+.sprite-cart-full {
+    width: 21px;
+    height: 20px;
+    background-position: -10px -50px;
+}
+
+.sprite-enter {
+    width: 21px;
+    height: 19px;
+    background-position: -10px -90px;
+}
+
+.sprite-enter_hover {
+    width: 21px;
+    height: 19px;
+    background-position: -10px -129px;
+}
+
+.sprite-hart {
+    width: 15px;
+    height: 13px;
+    background-position: -10px -168px;
+}
+
+.sprite-hiks {
+    width: 11px;
+    height: 11px;
+    background-position: -10px -201px;
+}
+
+.sprite-hit {
+    width: 61px;
+    height: 61px;
+    background-position: -10px -232px;
+}
+
+.sprite-ico_cow {
+    width: 48px;
+    height: 49px;
+    background-position: -10px -313px;
+}
+
+.sprite-ico_icecream {
+    width: 49px;
+    height: 49px;
+    background-position: -10px -382px;
+}
+
+.sprite-ico_list {
+    width: 49px;
+    height: 49px;
+    background-position: -10px -451px;
+}
+
+.sprite-ico_thermometer {
+    width: 48px;
+    height: 49px;
+    background-position: -10px -520px;
+}
+
+.sprite-lens {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -589px;
+}
+
+.sprite-lens_hover {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -626px;
+}
+
+.sprite-pin {
+    width: 218px;
+    height: 142px;
+    background-position: -10px -663px;
+}
+
+.sprite-social-fb {
+    width: 32px;
+    height: 32px;
+    background-position: -10px -825px;
+}
+
+.sprite-social-insta {
+    width: 32px;
+    height: 32px;
+    background-position: -10px -877px;
+}
+
+.sprite-social-twitter {
+    width: 33px;
+    height: 32px;
+    background-position: -10px -929px;
+}
+
+.sprite-social-vk {
+    width: 32px;
+    height: 32px;
+    background-position: -10px -981px;
+}
