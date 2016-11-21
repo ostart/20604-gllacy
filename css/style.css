@@ -12,7 +12,7 @@ body > input[type="radio"] {
 }
 
 .outline {
-  	outline: 3px solid black;
+	outline: 3px solid black;
 }
 
 .clearfix::after {
@@ -28,10 +28,10 @@ body > input[type="radio"] {
 }
 
 .content-wrapper {
-  	width: 1160px;
-  	margin: 0 auto;
-  	/*padding: 0 20px;*/
-  	font-size: 0;
+	width: 1160px;
+	margin: 0 auto;
+	/*padding: 0 20px;*/
+	font-size: 0;
 }
 
 .slider {
@@ -164,29 +164,29 @@ body > input[type="radio"] {
 }
 
 .main-navigation img{
-  	float: left;
-  	width: 154px;
-  	height: 64px;
-  	padding-top: 9px;
+	float: left;
+	width: 154px;
+	height: 64px;
+	padding-top: 9px;
 }
 
 .main-navigation ul {
-  	list-style: none;
-  	font-size: 0;
-  	padding: 25px 20px 14px;
-  	display: inline-block;
-  	vertical-align: top;
+	list-style: none;
+	font-size: 0;
+	padding: 25px 20px 14px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .main-menu a {
-  	text-decoration: none;
-  	color: white;
-  	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .main-menu li:hover a {
 	border-bottom: none;
-	color: #333333; /*black;*/
+	color: #333333;
 }
 
 .main-menu li{
@@ -211,7 +211,7 @@ body > input[type="radio"] {
 }
 
 .main-menu li:active{
-	box-shadow: inset 0 3px 2px -2px #333333; /*black;*/
+	box-shadow: inset 0 3px 2px -2px #333333;
 }
 
 .main-menu .sub-menu {
@@ -243,13 +243,13 @@ body > input[type="radio"] {
 
 .sub-menu a {
 	border-bottom: none;
-	color: #333333; /*black;*/
+	color: #333333;
 	font-weight: 400;
 	font-size: 14px;
-    line-height: 16px;
-    white-space: nowrap;
-    display: block;
-    padding: 10px 20px;
+	line-height: 16px;
+	white-space: nowrap;
+	display: block;
+	padding: 10px 20px;
 }
 
 .sub-menu li:last-child {
@@ -263,11 +263,11 @@ body > input[type="radio"] {
 .sub-menu-title::after {
 	content: "";
 	position: absolute;
-  	width: 126px;
-  	top: 35px;
-  	left: 8px;
-  	height: 1px;
-  	background-color: #d1d0ce;
+	width: 126px;
+	top: 35px;
+	left: 8px;
+	height: 1px;
+	background-color: #d1d0ce;
 }
 
 .user-block {
@@ -276,15 +276,15 @@ body > input[type="radio"] {
 	vertical-align: top;
 	padding: 25px 0px 7px;
 	position: relative;
-    padding-right: 8px;
+	padding-right: 8px;
 }
 
 .user-block a {
 	font-weight: 500;
 	font-size: 14px;
-    line-height: 16px;
-    text-decoration: none;
-    color: white;
+	line-height: 16px;
+	text-decoration: none;
+	color: white;
 }
 
 .finder {
@@ -292,15 +292,15 @@ body > input[type="radio"] {
 	vertical-align: top;
 	height: 30px;
 	width: 30px;
-  	border-radius: 30px;
-  	background-color: rgba(255, 255, 255, 0.2);
-  	padding: 5px;
-  	box-sizing: border-box;
-  	font-weight: 400;
+	border-radius: 30px;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 5px;
+	box-sizing: border-box;
+	font-weight: 400;
 	font-size: 14px;
-    line-height: 24px;
-    position: relative;
-    margin-right: 11px;
+	line-height: 24px;
+	position: relative;
+	margin-right: 11px;
 }
 
 .finder:hover {
@@ -328,8 +328,8 @@ body > input[type="radio"] {
 }
 
 .finder:hover div{
-  	display: inline-block;
-  	vertical-align: top;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .finder button {
@@ -337,18 +337,18 @@ body > input[type="radio"] {
 	background-color: transparent;
 	border: none;
 	width: 17px;
-    height: 17px;
-    background-position: -10px -589px;
-    display: inline-block;
-    vertical-align: top;
+	height: 17px;
+	background-position: -10px -589px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .finder:hover button {
 	background-color: transparent;
 	border: none;
 	width: 17px;
-    height: 17px;
-    background-position: -10px -626px;
+	height: 17px;
+	background-position: -10px -626px;
 }
 
 .login {
@@ -356,13 +356,13 @@ body > input[type="radio"] {
 	vertical-align: top;
 	margin-right: 9px;
 	height: 30px;
-  	border-radius: 30px;
-  	background-color: rgba(255, 255, 255, 0.2);
-  	padding: 6px;
-  	padding-left: 43px;
-  	padding-right: 16px;
-  	box-sizing: border-box;
-  	position: relative;
+	border-radius: 30px;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 6px;
+	padding-left: 43px;
+	padding-right: 16px;
+	box-sizing: border-box;
+	position: relative;
 }
 
 .login::before {
@@ -374,13 +374,13 @@ body > input[type="radio"] {
 	background-color: transparent;
 	border: none;
 	width: 21px;
-    height: 19px;
-    background-position: -10px -90px;
+	height: 19px;
+	background-position: -10px -90px;
 } 
 
 .login:hover {
 	background-color: #f8f7f4;
-	color: #333333;  /*black;*/
+	color: #333333;
 }
 
 .login:hover::before {
@@ -391,16 +391,16 @@ body > input[type="radio"] {
 	position: absolute;
 	display: none;
 	vertical-align: top;
-	top: 65px;
-	left: -138px;
+	top: 59px;
+	left: -145px;
 	width: 277px;
 	min-height: 216px;
 	background-color: #f8f7f4;
 	border-radius: 6px;
 	font-weight: 400;
 	font-size: 14px;
-    line-height: 24px;
-    z-index: 30;
+	line-height: 24px;
+	z-index: 30;
 }
 
 .login-form input {
@@ -441,13 +441,13 @@ body > input[type="radio"] {
 	vertical-align: top;
 	height: 31px;
 	width: 118px;
-  	border-radius: 31px;
-  	padding: 6px;
-  	padding-left: 45px;
-  	padding-right: 35px;
-  	box-sizing: border-box;
-  	position: relative;
-  	white-space: nowrap;
+	border-radius: 31px;
+	padding: 6px;
+	padding-left: 45px;
+	padding-right: 35px;
+	box-sizing: border-box;
+	position: relative;
+	white-space: nowrap;
 }
 
 .cart::before {
@@ -458,7 +458,7 @@ body > input[type="radio"] {
 	background-color: transparent;
 	border: none;
 	width: 21px;
-    height: 20px;  
+	height: 20px;  
 }
 
 .cart-empty {
@@ -475,23 +475,23 @@ body > input[type="radio"] {
 }
 
 a.cart-full {
-	color: #333333; /*black;*/
+	color: #333333;
 }
 
 .cart-order {
 	position: absolute;
 	display: none;
 	vertical-align: top;
-	top: 65px;
-	left: -275px;
+	top: 59px;
+	left: -281px;
 	width: 540px;
 	min-height: 243px;
 	background-color: #f8f7f4;
 	border-radius: 6px;
 	font-weight: 400;
 	font-size: 13px;
-    line-height: 16px;
-    color: #333333; /*black;*/
+	line-height: 16px;
+	color: #333333;
 }
 
 .cart-order table {
@@ -536,8 +536,8 @@ a.cart-full {
 	font-size: 14px;
 	line-height: 16px;
 	font-weight: 700;
-    padding-right: 8px;
-    float: right;
+	padding-right: 8px;
+	float: right;
 }
 
 .opentime b {
@@ -547,8 +547,8 @@ a.cart-full {
 }
 
 .current-main-menu {
-    border-radius: 20px;
-    background-color: #d07058;
+	border-radius: 20px;
+	background-color: #d07058;
 }
 
 .current-main-menu a {
@@ -577,13 +577,13 @@ footer div {
 	display: inline-block;
 	vertical-align: top;
 	width: 32px;
-    height: 32px;
-    margin-top: 36px;
-    margin-right: 12px; 
-    background: transparent url("../img/sprite2.png");
-    opacity: 0.8;
-    border-radius: 32px;
-    border: 3px solid #dae2de;
+	height: 32px;
+	margin-top: 36px;
+	margin-right: 12px; 
+	background: transparent url("../img/sprite2.png");
+	opacity: 0.8;
+	border-radius: 32px;
+	border: 3px solid #dae2de;
 }
 
 .social:hover {
@@ -642,9 +642,9 @@ footer div {
 	display: inline-block;
 	vertical-align: top;
 	width: 15px;
-    min-height: 16px;
-    background: transparent url("../img/sprite.png") no-repeat;
-    background-position: -10px -166px;
+	min-height: 16px;
+	background: transparent url("../img/sprite.png") no-repeat;
+	background-position: -10px -166px;
 }
 
 .left-col a:first-child {
@@ -705,13 +705,13 @@ main h1 {
 	margin: 0;
 	margin-top: 26px;
 	margin-left: 6px;
-  	padding: 0;
+	padding: 0;
 }
 
 .breadcrumbs li {
 	position: relative;
-  	display: inline;
-  	padding-right: 18px;
+	display: inline;
+	padding-right: 18px;
 }
 
 .breadcrumbs a {
@@ -765,7 +765,7 @@ main h1 {
 	box-sizing: border-box;
 	padding-top: 6px;
 	margin-right: 3px;
-	margin-top: 1px
+	margin-top: 1px;
 }
 
 .paginator .prev {
@@ -773,7 +773,7 @@ main h1 {
 	margin-right: 15px;
 	margin-top: 7px;
 	min-width: 9px;
-    height: 14px;
+	height: 14px;
 	background: url(../img/sprite2.png) no-repeat -10px -148px;
 }
 
@@ -782,7 +782,7 @@ main h1 {
 	margin-right: 0;
 	margin-top: 7px;
 	min-width: 9px;
-    height: 14px;
+	height: 14px;
 	background: url(../img/sprite2.png) no-repeat -10px -62px;
 }
 
@@ -798,7 +798,7 @@ main h1 {
 
 .paginator .current, .paginator a:active {
 	background-color: white;
-	color: #333333; /*black;*/
+	color: #333333;
 	border-radius: 14px;
 }
 
@@ -854,7 +854,7 @@ a.prev:hover, a.next:hover {
 
 .sorting select:hover {
 	background-color: white;
-	color: #333333; /*black;*/
+	color: #333333;
 	cursor: pointer;
 }
 
@@ -901,62 +901,52 @@ a.prev:hover, a.next:hover {
 }
 
 .range-controls {
-    position: relative;
-    height: 36px;
-    padding: 0 15px;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 36px;
-    overflow: hidden;
+	position: relative;
+	height: 36px;
+	padding-left: 16px;
+	padding-right: 13px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 36px;
+	overflow: hidden;
 }
 
 .scale {
-    margin-top: 15px;
-    height: 4px;
-    background: #d7dcde;
+	margin-top: 15px;
+	height: 4px;
+	background: #d7dcde;
 }
 
 .bar {
-    height: 4px;
-    background: white;
-    margin-left: 35px;
-    width: 79px;
+	height: 4px;
+	background: white;
+	margin-left: 35px;
+	width: 87px;
 }
 
 .toggle {
-    position: absolute;
-    top: 7px;
-    width: 20px;
-    height: 20px;
-    background: white;
-    cursor: pointer;
-    border-radius: 50%;
+	position: absolute;
+	top: 7px;
+	width: 20px;
+	height: 20px;
+	background: white;
+	cursor: pointer;
+	border-radius: 50%;
 }
 
 .min-toggle {
-    left: 35px;
+	left: 35px;
 }
 
 .max-toggle {
-    left: 133px;
+	left: 133px;
 }
 
 .toggle:hover {
-	width: 24px;
-	height: 24px;
-	top: 6px;
-}
-
-.min-toggle:hover {
-    left: 28px;
-}
-
-.max-toggle:hover {
-    left: 126px;
+	cursor: pointer;
 }
 
 .fatness {
 	display: inline-block;
-	/*width: 422px;*/
 	vertical-align: top;
 }
 
@@ -971,7 +961,6 @@ a.prev:hover, a.next:hover {
 
 .filler {
 	display: inline-block;
-	/*width: 714px;*/
 	vertical-align: top;
 	margin-left: 7px;
 }
@@ -1004,7 +993,6 @@ a.prev:hover, a.next:hover {
 
 .filler input[type="checkbox"] + label {
 	padding-left: 36px;
-	/*padding-right: 19px;*/
 	position: relative;
 	cursor: pointer;
 	margin-right: 18px;
@@ -1064,7 +1052,7 @@ a.prev:hover, a.next:hover {
 	background-position: -3px -3px; 
 	border: none;
 	width: 15px;
-    height: 15px;
+	height: 15px;
 	position: absolute;
 	top: 3px;
 	left: 7px;
@@ -1094,7 +1082,7 @@ a.prev:hover, a.next:hover {
 }
 
 .filter-form-submit:hover {
-	color: #333333; /*black;*/
+	color: #333333;
 	background-color: white;
 }
 
@@ -1136,7 +1124,7 @@ a.prev:hover, a.next:hover {
 	background-color: rgba(255, 255, 255, 0.2);
 	border-radius: 5px;
 	z-index: 10;
-	box-shadow: 0 0 6px 3px rgba(0,0,0,0.4);
+	box-shadow: 0 10px 50px 1px rgba(0,0,0,0.4);
 }
 
 .hover-block a {
@@ -1185,7 +1173,7 @@ a.prev:hover, a.next:hover {
 
 .hit .kilo {
 	font-size: 28px;
-    margin-left: 2px;
+	margin-left: 2px;
 }
 
 .hit p {
@@ -1292,13 +1280,12 @@ a.prev:hover, a.next:hover {
 	margin-top: 5px;
 	margin-bottom: 40px;
 	margin-left: 6px;
-    margin-right: 8px;
-    min-height: 306px;
+	margin-right: 8px;
+	min-height: 306px;
 }
 
 .preferences ul {
 	list-style: none;
-	/*margin: 0;*/
 	padding: 0;
 }
 
@@ -1334,8 +1321,8 @@ a.prev:hover, a.next:hover {
 	left: -57px;
 	background: url("../img/sprite.png") no-repeat;
 	width: 49px;
-    height: 49px;
-    background-position: -10px -381px;
+	height: 49px;
+	background-position: -10px -381px;
 }
 
 .ico_cow::before {
@@ -1344,9 +1331,9 @@ a.prev:hover, a.next:hover {
 	top: -14px;
 	left: -57px;
 	background: url("../img/sprite.png") no-repeat;
-    width: 48px;
-    height: 49px;
-    background-position: -10px -312px;
+	width: 48px;
+	height: 49px;
+	background-position: -10px -312px;
 }
 
 .ico_list::before {
@@ -1356,8 +1343,8 @@ a.prev:hover, a.next:hover {
 	left: -57px;
 	background: url("../img/sprite.png") no-repeat;
 	width: 49px;
-    height: 49px;
-    background-position: -10px -451px;
+	height: 49px;
+	background-position: -10px -451px;
 }
 
 .ico_thermometer::before {
@@ -1366,9 +1353,9 @@ a.prev:hover, a.next:hover {
 	top: -12px;
 	left: -57px;
 	background: url("../img/sprite.png") no-repeat;
-    width: 48px;
-    height: 49px;
-    background-position: -10px -520px;
+	width: 48px;
+	height: 49px;
+	background-position: -10px -520px;
 }
 
 .news-subs {
@@ -1407,7 +1394,6 @@ a.prev:hover, a.next:hover {
 	line-height: 21px;
 	color: #323232;
 	border-bottom: 2px solid #323232;
-	
 }
 
 .subscribe {
@@ -1449,7 +1435,7 @@ a.prev:hover, a.next:hover {
 .map {
 	position: relative;
 	width: 1200px;
-  	margin: 0 auto;
+	margin: 0 auto;
 }
 
 .map img{
@@ -1463,10 +1449,10 @@ a.prev:hover, a.next:hover {
 	background: url(../img/sprite.png) no-repeat;
 	position: absolute;
 	width: 218px;
-    height: 142px;
-    background-position: -10px -663px;
-    left: 245px;
-    top: 150px;
+	height: 142px;
+	background-position: -10px -663px;
+	left: 245px;
+	top: 150px;
 }
 
 .map-adres {
@@ -1570,35 +1556,35 @@ a.prev:hover, a.next:hover {
 }
 
 .modal-content-close {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  width: 18px;
-  height: 18px;
-  font-size: 0;
-  background-color: transparent;
-  border: 0;
-  cursor: pointer;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 18px;
+	height: 18px;
+	font-size: 0;
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
 }
 
 .modal-content-close::before,
 .modal-content-close::after {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 2px;
-  width: 19px;
-  height: 2px;
-  background-color: #333333;
-  border-radius: 1px;
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 2px;
+	width: 19px;
+	height: 2px;
+	background-color: #333333;
+	border-radius: 1px;
 }
 
 .modal-content-close::before {
-  transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 .modal-content-close::after {
-  transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 
 .showed {
