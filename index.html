@@ -155,18 +155,21 @@
               </form>
             </div>
           </div>
-          
-          <article class="map">
-            <img src="img/map_1200.jpg" alt="Карта" width="1200" height="428">
-            <div class="map-adres">
-              <p>Адрес главного офиса и<br> офлайн магазина:<br>
-              <b>ул. Большая Конюшенная 19/8, Санкт-Петербург</b></p>
-              <p>Для заказов по телефону:<br>
-              <b>8 812 450-25-25</b><br>
-              (с 10 до 20 ежедневно)</p>
-              <a class="map-button btn" href="#">Форма обратной связи</a>
-            </div>
-          </article>
+          <div class="map-container">
+            <article class="map">
+              <div class="yandex-map" id="yandex-map"><img src="img/map.jpg" alt="Карта" width="1200" height="430"></div>
+              <div class="map-container">
+                <div class="map-adres">
+                  <p>Адрес главного офиса и<br> офлайн магазина:<br>
+                  <b>ул. Большая Конюшенная 19/8, Санкт-Петербург</b></p>
+                  <p>Для заказов по телефону:<br>
+                  <b>8 812 450-25-25</b><br>
+                  (с 10 до 20 ежедневно)</p>
+                  <a class="map-button btn" href="#">Форма обратной связи</a>
+                </div>
+              </div> 
+            </article>
+          </div>
         </main>
 
         <footer>
@@ -198,15 +201,19 @@
           <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
           <h2>Мы обязательно вам ответим!</h2>
           <form class="feedback-form" id="feedback-form" action="https://echo.htmlacademy.ru" method="post">
-            <input type="text" name="name" placeholder="Как вас зовут?">
-            <input type="text"  name="e-mail" placeholder="Ваша почта для ответа?">
-            <textarea name="feedback-text" form="feedback-form" rows="4" cols="49">Напишите что-нибудь ...</textarea>
-            <button class="btn send-feedback" type="submit">Отправить</button>
+            <input id="name" type="text" name="name">
+            <label class="feedback-name-lbl" for="name">Как вас зовут?</label>
+            <input id="e-mail" type="text"  name="e-mail">
+            <label class="feedback-mail-lbl" for="e-mail">Ваша почта для ответа?</label>
+            <textarea id="feedback-text" name="feedback-text" form="feedback-form" rows="4" cols="49"></textarea>
+            <label class="feedback-text-lbl" for="feedback-text">Напишите что-нибудь ...</label>
+            <button class="btn send-feedback" type="submit" form="feedback-form" formaction="feedback-form.html">Отправить</button>
           </form>
         </div>
         <div class="modal-overlay"></div>
       </div>
     </div>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=0Sn4v10ATv1Mz7Gz94NnlWiecp0zEXyD&amp;width=100%25&amp;height=430&amp;id=yandex-map&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
   </body>
 </html>

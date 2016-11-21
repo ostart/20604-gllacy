@@ -11,10 +11,6 @@ body > input[type="radio"] {
 	display: none;
 }
 
-.outline {
-	outline: 3px solid black;
-}
-
 .clearfix::after {
 	content: "";
 	display: table;
@@ -30,7 +26,6 @@ body > input[type="radio"] {
 .content-wrapper {
 	width: 1160px;
 	margin: 0 auto;
-	/*padding: 0 20px;*/
 	font-size: 0;
 }
 
@@ -480,6 +475,7 @@ a.cart-full {
 
 .cart-order {
 	position: absolute;
+	z-index: 30;
 	display: none;
 	vertical-align: top;
 	top: 59px;
@@ -1432,27 +1428,29 @@ a.prev:hover, a.next:hover {
 	cursor: pointer;
 }
 
+.map-container{
+	width: 1160px;
+	margin: 0 auto;
+	background-color: transparent;
+	min-height: 90px;
+	position: relative;
+	z-index: 40;
+}
+
 .map {
 	position: relative;
-	width: 1200px;
-	margin: 0 auto;
+	height: 430px;
+	width: 100vw;
+	left: calc(-50vw + 50%);
+	overflow: hidden;
 }
 
 .map img{
-	left: -21px;
-	bottom: -11px;
-	position: relative;
-}
-
-.map::after {
-	content: "";
-	background: url(../img/sprite.png) no-repeat;
+	width: 100%;
+	height: auto;
 	position: absolute;
-	width: 218px;
-	height: 142px;
-	background-position: -10px -663px;
-	left: 245px;
-	top: 150px;
+	left: 0;
+	top: 0;
 }
 
 .map-adres {
@@ -1470,6 +1468,12 @@ a.prev:hover, a.next:hover {
 	top: 73px;
 	border-radius: 15px;
 	padding-top: 20px;
+	z-index: 50;
+}
+
+.yandex-map {
+	position: relative;
+	z-index: 10;
 }
 
 .map-adres p {
@@ -1504,7 +1508,7 @@ a.prev:hover, a.next:hover {
 }
 
 .modal-content {
-	position: absolute;
+	position: fixed;
 	z-index: 60;
 	display: none;
 	top: 328px;
@@ -1514,7 +1518,7 @@ a.prev:hover, a.next:hover {
 	border-radius: 15px;
 	color: #333333;
 	background: #f8f7f4;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 24px;
 }
@@ -1533,19 +1537,90 @@ a.prev:hover, a.next:hover {
 	padding-left: 10px;
 	width: 267px;
 	height: 45px;
+	color: #333333;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .modal-content textarea {
 	margin: 0 25px 25px;
 	padding: 15px 10px;
 	border-radius: 5px;
-	font-weight: 400;
+	color: #333333;
+	background: white;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 24px;
-	color: #b4b4b4;
 	width: 85%;
 	resize: none;
 }
+
+.modal-content textarea:focus {
+	color: #333333;
+}
+
+.feedback-form {
+	position: relative;
+}
+
+.feedback-form label {
+	position: absolute;
+	color: #a7a7a7;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.feedback-name-lbl {
+	left: 39px;
+	top: 13px;
+}
+
+.feedback-mail-lbl {
+	left: 39px;
+	top: 85px;
+}
+
+.feedback-text-lbl {
+	left: 39px;
+	top: 161px;
+}
+
+.feedback-form input:hover, .feedback-form textarea:hover {
+	border: 3px solid #c7c6c5;
+	border-radius: 5px;
+}
+
+input:focus {
+	border: 1px solid #8fbdec;
+	border-radius: 5px;
+}
+
+input:focus + .feedback-name-lbl {
+	top: -15px;
+	color: #8fbdec;
+	font-size: 11px;
+	line-height: 13px;
+	font-weight: 400;
+}
+
+input:focus + .feedback-mail-lbl {
+	top: 58px;
+	color: #8fbdec;
+	font-size: 11px;
+	line-height: 13px;
+	font-weight: 400;
+}
+
+textarea:focus + .feedback-text-lbl {
+	top: 130px;
+	color: #8fbdec;
+	font-size: 11px;
+	line-height: 13px;
+	font-weight: 400;
+}
+
 
 .modal-content .send-feedback {
 	width: 140px;
