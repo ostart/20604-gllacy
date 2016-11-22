@@ -1321,8 +1321,8 @@ a.next:hover {
     position: fixed;
     z-index: 60;
     display: none;
-    top: 328px;
-    left: 38%;
+    top: calc(50% - 420px/2);
+    left: calc(50% - 478px/2);
     width: 478px;
     min-height: 420px;
     border-radius: 15px;
@@ -1362,8 +1362,10 @@ a.next:hover {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    width: 85%;
+    width: 90%;
     resize: none;
+    height: 128px;
+    box-sizing: border-box;
 }
 .modal-content input:focus {
     border: 1px solid #8fbdec;
