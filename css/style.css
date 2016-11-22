@@ -20,7 +20,7 @@ body > input[type="radio"] {
 .site-wrapper {
 	min-width: 1200px;
 	background: #849d8f url("../img/slide-1.png") no-repeat top center;
-	transition: background-image 0.5s ease, background-color 0.5s ease;
+	/*transition: background-image 0.5s ease, background-color 0.5s ease;*/
 }
 
 .content-wrapper {
@@ -883,7 +883,7 @@ a.prev:hover, a.next:hover {
 	width: 9px;
 	height: 5px;
 	top: 38px;
-	right: 18px;
+	right: 13px;
 }
 
 .pricing {
@@ -1356,7 +1356,7 @@ a.prev:hover, a.next:hover {
 
 .news-subs {
 	color: #323232;
-	margin-bottom: 28px;
+	margin-bottom: 38px;
 }
 
 .news {
@@ -1432,14 +1432,13 @@ a.prev:hover, a.next:hover {
 	width: 1160px;
 	margin: 0 auto;
 	background-color: transparent;
-	min-height: 90px;
 	position: relative;
 	z-index: 40;
 }
 
 .map {
 	position: relative;
-	height: 430px;
+	height: 428px;
 	width: 100vw;
 	left: calc(-50vw + 50%);
 	overflow: hidden;
@@ -1464,16 +1463,11 @@ a.prev:hover, a.next:hover {
 	width: 302px;
 	height: 285px;
 	position: absolute;
-	right: 48px;
-	top: 73px;
+	right: 8px;
+	top: 63px;
 	border-radius: 15px;
 	padding-top: 20px;
 	z-index: 50;
-}
-
-.yandex-map {
-	position: relative;
-	z-index: 10;
 }
 
 .map-adres p {
@@ -1541,6 +1535,7 @@ a.prev:hover, a.next:hover {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 24px;
+	box-sizing: border-box;
 }
 
 .modal-content textarea {
@@ -1574,17 +1569,17 @@ a.prev:hover, a.next:hover {
 
 .feedback-name-lbl {
 	left: 39px;
-	top: 13px;
+	top: 11px;
 }
 
 .feedback-mail-lbl {
 	left: 39px;
-	top: 85px;
+	top: 76px;
 }
 
 .feedback-text-lbl {
 	left: 39px;
-	top: 161px;
+	top: 148px;
 }
 
 .feedback-form input:hover, .feedback-form textarea:hover {
@@ -1606,7 +1601,7 @@ input:focus + .feedback-name-lbl {
 }
 
 input:focus + .feedback-mail-lbl {
-	top: 58px;
+	top: 51px;
 	color: #8fbdec;
 	font-size: 11px;
 	line-height: 13px;
@@ -1614,7 +1609,7 @@ input:focus + .feedback-mail-lbl {
 }
 
 textarea:focus + .feedback-text-lbl {
-	top: 130px;
+	top: 116px;
 	color: #8fbdec;
 	font-size: 11px;
 	line-height: 13px;
