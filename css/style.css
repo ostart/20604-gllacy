@@ -17,7 +17,6 @@ body > input[type="radio"] {
 .site-wrapper {
     min-width: 1200px;
     background: #849d8f url("../img/slide-1.png") no-repeat top center;
-    /*transition: background-image 0.5s ease, background-color 0.5s ease;*/
 }
 .content-wrapper {
     width: 1160px;
@@ -159,9 +158,7 @@ body > input[type="radio"] {
     color: #333333;
 }
 .main-menu li {
-    display: inline-block;
-    /*здесь vertical-align не надо*/
-    
+    display: inline-block; /*здесь vertical-align не надо*/
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
