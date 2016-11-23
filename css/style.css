@@ -143,50 +143,69 @@ body > input[type="radio"] {
     height: 64px;
     padding-top: 9px;
 }
-.main-navigation > ul {
+.main-menu {
     list-style: none;
     font-size: 0;
-    padding: 23px 17px 14px;
+    padding: 0;
     display: inline-block;
     vertical-align: top;
+    margin-left: 18px;
+    margin-top: 7px;
+    border-radius: 20px;
+    box-shadow: none;
 }
-.main-menu a {
-    text-decoration: none;
-    color: white;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+.main-menu-item {
+  min-height: 32px;
+  margin: 8px 13px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 rgba(255,255,255,0.3);
+  border-bottom: 1px solid transparent;
 }
-.main-menu li:hover a {
-    border-bottom: none;
-    color: #333333;
+.main-menu-item:hover, .main-menu-item:active{
+  margin: 0;
+  padding: 7px 13px;
+  color: #323232;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: none;
+
 }
-.main-menu > li {
+.main-menu-item:active {
+  box-shadow: inset  0 2px  2px #323232;
+}
+
+.current-main-menu {
+    border-radius: 20px;
+    background-color: #d07058;
+    margin: 0;
+    padding: 7px 13px;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.main-menu li {
     display: inline-block;
     vertical-align: top;
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
     position: relative;
-    padding: 7px 13px;
     margin: 0;
-    margin-right: 2px;
-}
-.main-menu li:hover {
-    border-radius: 20px;
-    background-color: white;
-    cursor: pointer;
+    padding: 23px 0 23px 0;
 }
 .main-menu > li:hover .sub-menu {
     display: block;
     cursor: pointer;
     z-index: 100;
 }
-.main-menu li:active {
-    box-shadow: inset 0 3px 2px -2px #333333;
-}
 .sub-menu {
     display: none;
     position: absolute;
-    top: 37px;
+    top: 53px;
     left: -8px;
     border-radius: 5px;
     background-color: white;
@@ -215,6 +234,7 @@ body > input[type="radio"] {
     white-space: nowrap;
     display: block;
     padding: 10px 20px 5px;
+    text-decoration: none;
 }
 .sub-menu li:last-child {
     padding-bottom: 9px;
@@ -240,9 +260,14 @@ body > input[type="radio"] {
     float: right;
     display: inline-block;
     vertical-align: top;
-    padding: 25px 0px 7px;
-    position: relative;
+    font-size: 0;
+    position: relative; 
+    text-align: right;
+    margin: 0;
+    padding: 0;
     padding-right: 8px;
+    list-style-type: none;
+    width: 320px;
 }
 .user-block a {
     font-weight: 500;
@@ -268,12 +293,41 @@ body > input[type="radio"] {
 }
 .finder:hover {
     background-color: #f8f7f4;
+    cursor: pointer;
 }
+
+.search {
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #ffffff;
+    height: 43px;
+    width: 50px;
+}
+
+.divlog {
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #ffffff;
+    min-width: 35px;
+    padding: 22px 0 14px 0px;
+}
+
+.basket {
+    min-width: 40px;
+    padding: 22px 0 14px 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #ffffff;
+}
+
 .finder div {
     position: absolute;
     display: none;
-    top: 38px;
-    left: -308px;
+    top: 34px;
+    left: -311px;
     width: 342px;
     min-height: 84px;
     background-color: #f8f7f4;
@@ -288,10 +342,6 @@ body > input[type="radio"] {
     margin: 20px 16px;
     width: 310px;
     box-sizing: border-box;
-}
-.finder:hover div {
-    display: inline-block;
-    vertical-align: top;
 }
 .finder button {
     background-image: url("../img/sprite.png");
@@ -347,7 +397,7 @@ body > input[type="radio"] {
     display: none;
     vertical-align: top;
     top: 59px;
-    left: -145px;
+    right: 9px;
     width: 277px;
     min-height: 216px;
     background-color: #f8f7f4;
@@ -368,6 +418,7 @@ body > input[type="radio"] {
     border-radius: 6px;
     border: 1px solid #d3d3d2;
 }
+
 .login-form a {
     color: #676766;
     font-size: 13px;
@@ -380,6 +431,7 @@ body > input[type="radio"] {
 .login-form button {
     margin: 20px;
     margin-left: 18px;
+    margin-right: 10px;
     width: 103px;
 }
 .login-form div {
@@ -387,6 +439,8 @@ body > input[type="radio"] {
     vertical-align: top;
     margin-top: 20px;
     width: 123px;
+    margin-right: 11px;
+    text-align: left;
 }
 .cart {
     display: inline-block;
@@ -420,7 +474,7 @@ body > input[type="radio"] {
     background-image: url("../img/sprite.png");
     background-position: 6px -45px;
     background-color: #f7f6f3;
-    margin-top: -1px;
+    margin-top: 2px;
 }
 a.cart-full {
     color: #333333;
@@ -431,7 +485,7 @@ a.cart-full {
     display: none;
     vertical-align: top;
     top: 59px;
-    left: -281px;
+    right: 0;
     width: 540px;
     min-height: 243px;
     background-color: #f8f7f4;
@@ -472,6 +526,10 @@ a.cart-full {
     margin-right: 15px;
     float: right;
 }
+.search:hover div, .divlog:hover .login-form, .basket:hover .cart-order {
+    display: inline-block;
+    vertical-align: top;
+}
 .opentime {
     text-align: right;
     font-size: 14px;
@@ -485,13 +543,7 @@ a.cart-full {
     line-height: 32px;
     font-weight: 700;
 }
-.current-main-menu {
-    border-radius: 20px;
-    background-color: #d07058;
-}
-.current-main-menu a {
-    border-bottom: none;
-}
+
 footer div {
     display: inline-block;
     vertical-align: top;
